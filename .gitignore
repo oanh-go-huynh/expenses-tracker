@@ -1,0 +1,69 @@
+# Node.js / npm / yarn / pnpm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json # Optional: some teams commit this, some don't. If you don't, ensure consistent `npm ci` usage.
+# yarn.lock # If using Yarn, usually committed
+# pnpm-lock.yaml # If using pnpm, usually committed
+
+# Environment variables
+.env
+.env.*
+!.env.example # Important: Keep .env.example files in Git
+
+# Build output
+dist/
+build/
+out/
+.next/
+coverage/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+logs
+*.log.*.[0-9]
+
+# CDK output
+cdk.out/
+
+# Prisma specific (if you have local db files not meant for commit)
+# *.db
+# *.sqlite
+
+# Frontend specific
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/node_modules/ # Redundant if node_modules/ is at root, but good for clarity
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.production.local
+
+# Backend specific
+backend/dist/
+backend/node_modules/ # Redundant if node_modules/ is at root
+backend/.env
+
+# Infrastructure specific
+infrastructure/cdk.out/
+infrastructure/node_modules/ # Redundant if node_modules/ is at root

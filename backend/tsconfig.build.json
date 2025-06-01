@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "incremental": true,
+    "tsBuildInfoFile": "./dist/tsconfig.build.tsbuildinfo",
+    "emitDecoratorMetadata": true,  
+    "experimentalDecorators": true 
+  },
+  "exclude": ["node_modules", "dist", "test", "**/*spec.ts"]
+}
