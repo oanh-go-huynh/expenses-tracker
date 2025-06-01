@@ -62,8 +62,8 @@ This is the easiest way to get all services (backend, PostgreSQL, Redis) up and 
 1.  **Clone the main project repository (if you haven't already):**
 
     ```bash
-    git clone <your-full-stack-project-repo-url>
-    cd <your-full-stack-project-name>
+    git clone https://github.com/oanh-go-huynh/expenses-tracker.git
+    cd expenses-tracker
     ```
 
 2.  **Navigate to the backend directory and create a `.env` file:**
