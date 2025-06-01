@@ -1,13 +1,13 @@
 # Expenses App - Backend API
 
-\<p align="center"\>
-\<img src="[suspicious link removed]" alt="NestJS API" /\>
-\<img src="[suspicious link removed]" alt="GraphQL API" /\>
-\<img src="[suspicious link removed]" alt="PostgreSQL" /\>
-\<img src="[suspicious link removed]" alt="Prisma ORM" /\>
-\<img src="[suspicious link removed]" alt="Redis Cache" /\>
-\<img src="[suspicious link removed]" alt="Docker" /\>
-\</p\>
+<p align="center">
+  <img src="https://img.shields.io/badge/NestJS-API-ea2845?style=for-the-badge&logo=nestjs" alt="NestJS API" />
+  <img src="https://img.shields.io/badge/GraphQL-API-e10098?style=for-the-badge&logo=graphql" alt="GraphQL API" />
+  <img src="https://img.shields.io/badge/PostgreSQL-Database-336791?style=for-the-badge&logo=postgresql" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Prisma-ORM-2D3748?style=for-the-badge&logo=prisma" alt="Prisma ORM" />
+  <img src="https://img.shields.io/badge/Redis-Cache-DC382D?style=for-the-badge&logo=redis" alt="Redis Cache" />
+  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker" alt="Docker" />
+</p>
 
 This is the backend service for the Expenses App, a robust and scalable server-side application built with NestJS. It provides a GraphQL API for managing user authentication and expense tracking, leveraging PostgreSQL for data persistence and Redis for caching.
 

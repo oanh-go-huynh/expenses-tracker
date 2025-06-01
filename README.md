@@ -1,14 +1,14 @@
 # Expense Tracker - Full-Stack Application
 
-\<p align="center"\>
-\<img src="[suspicious link removed]" alt="Full Stack Application" /\>
-\<img src="[suspicious link removed]" alt="Dockerized" /\>
-\<a href="[suspicious link removed]"\>\<img src="[suspicious link removed]" alt="GitHub Repo"/\>\</a\>
-\</p\>
+<p align="center">
+  <img src="https://img.shields.io/badge/Full_Stack-Application-blueviolet?style=for-the-badge" alt="Full Stack Application" />
+  <img src="https://img.shields.io/badge/Dockerized-Yes-2496ED?style=for-the-badge&logo=docker" alt="Dockerized" />
+  <a href="https://github.com/oanh-go-huynh/expenses-tracker"><img src="https://img.shields.io/github/stars/oanh-go-huynh/expenses-tracker?style=for-the-badge&logo=github&label=GitHub" alt="GitHub Repo"/></a>
+</p>
 
-\<p align="center"\>
-\<em\>A modern, full-stack application for managing personal expenses, featuring a NestJS backend and a Next.js frontend, all containerized with Docker. View the project on \<a href="[suspicious link removed]"\>GitHub\</a\>.\</em\>
-\</p\>
+<p align="center">
+  <em>A modern, full-stack application for managing personal expenses, featuring a NestJS backend and a Next.js frontend, all containerized with Docker. View the project on <a href="https://github.com/oanh-go-huynh/expenses-tracker">GitHub</a>.</em>
+</p>
 
 ## 🌟 Overview
 
@@ -66,15 +66,12 @@ This project is a comprehensive solution for tracking expenses. It allows users 
 Here's a sneak peek of the Expense Tracker in action:
 
 ### Frontend - Authentication
-*(Screenshot of your Login or Registration page)*
 ![Login Page](assets/images/login-page.png "Login Page")
 
 ### Frontend - Dashboard
-*(Screenshot or GIF of your main Dashboard after login)*
 ![Dashboard View](assets/videos/flow.gif "Dashboard Overview")
 
 ### Backend - GraphQL Playground
-*(Screenshot of the GraphQL Playground interface)*
 ![GraphQL Playground](assets/images/graphql-playground.png "GraphQL Playground")
 
 
@@ -151,9 +148,9 @@ docker-compose down -v
 
 For more detailed information on developing specific parts of the application, refer to their individual README files:
 
-  * **Backend README:** [https://github.com/oanh-go-huynh/expenses-tracker/blob/main/backend/README.md](https://www.google.com/search?q=https://github.com/oanh-go-huynh/expenses-tracker/blob/main/backend/README.md)
-  * **Frontend README:** [https://github.com/oanh-go-huynh/expenses-tracker/blob/main/frontend/README.md](https://www.google.com/search?q=https://github.com/oanh-go-huynh/expenses-tracker/blob/main/frontend/README.md) (*You might want to create this for frontend-specific setup or development notes.*)
-  * **Infrastructure README:** [https://github.com/oanh-go-huynh/expenses-tracker/blob/main/infrastructure/README.md](https://www.google.com/search?q=https://github.com/oanh-go-huynh/expenses-tracker/blob/main/infrastructure/README.md) (*Details on the AWS CDK setup for cloud deployment.*)
+  * **Backend README:** [https://github.com/oanh-go-huynh/expenses-tracker/blob/main/backend/README.md](https://github.com/oanh-go-huynh/expenses-tracker/blob/main/backend/README.md)
+  * **Frontend README:** [https://github.com/oanh-go-huynh/expenses-tracker/blob/main/frontend/README.md](https://github.com/oanh-go-huynh/expenses-tracker/blob/main/frontend/README.md) 
+  * **Infrastructure README:** [https://github.com/oanh-go-huynh/expenses-tracker/blob/main/infrastructure/README.md](https://github.com/oanh-go-huynh/expenses-tracker/blob/main/infrastructure/README.md) 
 
 ## ☁️ Cloud Infrastructure & CI/CD (Future Development)
 
