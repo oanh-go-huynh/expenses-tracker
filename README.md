@@ -69,7 +69,9 @@ Here's a sneak peek of the Expense Tracker in action:
 ![Login Page](assets/images/login-page.png "Login Page")
 
 ### Frontend - Dashboard
-![Dashboard View](assets/videos/flow.gif "Dashboard Overview")
+![Login View](assets/videos/flow.gif "Login Overview")
+
+![Dashboard View](assets/images/dashboard-page.png "Dashboard Overview")
 
 ### Backend - GraphQL Playground
 ![GraphQL Playground](assets/images/graphql-playground.png "GraphQL Playground")
